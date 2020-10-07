@@ -1,1 +1,154 @@
+body {
+    font-family: 'Montserrat';
+}
 
+h1 {
+    font-family: 'Montserrat:wght@900', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat:wght@900', sans-serif;
+    font-weight: 900;
+    font-size: 2.75rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat:wght@900' sans-serif;
+    font-weight: 900;
+}
+
+svg {
+    margin-top: -0.25rem;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+#title {
+    background-color: #28df99;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.navbar {
+    padding: 0 0 2rem 0;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar-item {
+    font-size: 1.5rem;
+    padding: 0 20px;
+}
+
+.map-img {
+    transform: rotate(-25deg);
+    width: 120%;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.features {
+    text-align: center;
+    padding: 5% 15% 7%;
+}
+
+.features-img {
+    width: 40%;
+    padding: 50px 0;
+}
+
+.features p {
+    margin-top: 1.5rem;
+    color: #8F8F8F;
+}
+
+.col-lg-4 {
+    padding: 0 3%;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #68e8b7;
+    color: #ffffff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #68e8b7;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#pricing h2 {
+    margin-bottom: 40px;
+}
+
+#cta {
+    background-color: #68e8b7;
+    text-align: center;
+    padding: 7% 15% 5% 15%;
+}
+
+#cta h3 {
+    font-family: 'Montserrat:wght@900', sans-serif;
+    font-weight: 900;
+    font-size: 2.75rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+#footer {
+    text-align: center;
+    color: #8F8F8F;
+    padding: 4% 15% 2% 15%;
+    background-color: #ffffff;
+}
+
+#footer img {
+    padding: 0 10px 25px 10px;
+}
+
+@media (max-width: 1200px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .map-img {
+        transform: rotate(0);
+        width: 50%;
+    }
+}
